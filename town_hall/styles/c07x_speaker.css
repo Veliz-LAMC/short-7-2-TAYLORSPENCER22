@@ -90,8 +90,36 @@ aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-aside img {
-	padding-bottom: 1em;
+
+/*styles for the nav*/
+* {margin:0;
+	padding:0;
+}
+#nav_list ul {
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 1em;
+}
+#nav_list ul li {
+	width:200px;
+	margin-bottom: .5em;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 0px 0px #800000;
+	background-image:url(/town_hall/images/right.jpg);
+	background-repeat: no-repeat;
+	background-position: 95%;
+}
+#nav_list ul li a {
+	display:block;
+	padding: .5em 0 .5em .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	
+}
+#nav_list ul li a.current {
+	color: #800000;
 }
 
 /* the styles for the footer */
